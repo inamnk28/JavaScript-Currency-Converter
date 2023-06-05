@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="con">
+        <div class="converter">
+            <div class="head">
+                <h1>Currency Converter</h1>
+            </div>
+            <input type="number" id="amount">
+            <div class="first-input">
+                <select class="drop" name="" id="first-currency">
+                    <option value="usd">USD</option>
+                    <option value="zar">ZAR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="aed">AED</option>
+                    <option value="eur">EUR</option>
+                    <option value="zwl">ZWL</option>
+                    <option value="jpy">JPY</option>
+                </select>
+            </div>
+            <div class="second-input">
+                <select class="drop" name="" id="second-currency">
+                    <option value="usd">USD</option>
+                    <option value="zar">ZAR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="eur">EUR</option>
+                </select>
+            </div>
+            <div>
+                <button id="button" onclick="convert()">Convert</button>
+                <p id="output"></p>
+            </div>
+        </div>
+    </div>
+  <script src="./script/script.js"></script>  
+</body>
+</html>
